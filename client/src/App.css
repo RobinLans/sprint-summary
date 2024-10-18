@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.team-container,
+.sprint-container {
+  padding: 1rem;
+  border-bottom: solid 1px white;
+}
+
+.card {
+  padding: 2em;
+  border: solid 2px white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  ul,
+  p,
+  span {
+    text-align: left;
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+}
+
+button {
+  margin: 0.5rem 0.5rem;
+}
